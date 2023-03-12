@@ -1,0 +1,18 @@
+﻿  Employee.cpp
+  employees.cpp
+  EmployeeTest.cpp
+  Generating Code...
+Employee.obj : error LNK2019: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl Employee::getFirstName(void)const " (?getFirstName@Employee@@QEBAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) referenced in function "public: void __cdecl Employee::display(void)const " (?display@Employee@@QEBAXXZ)
+Employee.obj : error LNK2019: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl Employee::getLastName(void)const " (?getLastName@Employee@@QEBAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) referenced in function "public: void __cdecl Employee::display(void)const " (?display@Employee@@QEBAXXZ)
+Employee.obj : error LNK2019: unresolved external symbol "public: int __cdecl Employee::getEmployeeNumber(void)const " (?getEmployeeNumber@Employee@@QEBAHXZ) referenced in function "public: void __cdecl Employee::display(void)const " (?display@Employee@@QEBAXXZ)
+Employee.obj : error LNK2019: unresolved external symbol "public: void __cdecl Employee::setSalary(int)" (?setSalary@Employee@@QEAAXH@Z) referenced in function "public: void __cdecl Employee::demote(int)" (?demote@Employee@@QEAAXH@Z)
+Employee.obj : error LNK2019: unresolved external symbol "public: int __cdecl Employee::getSalary(void)const " (?getSalary@Employee@@QEBAHXZ) referenced in function "public: void __cdecl Employee::demote(int)" (?demote@Employee@@QEAAXH@Z)
+Employee.obj : error LNK2019: unresolved external symbol "public: bool __cdecl Employee::ishired(void)const " (?ishired@Employee@@QEBA_NXZ) referenced in function "public: void __cdecl Employee::display(void)const " (?display@Employee@@QEBAXXZ)
+employees.obj : error LNK2019: unresolved external symbol "public: void __cdecl Records::Database::displayAll(void)const " (?displayAll@Database@Records@@QEBAXXZ) referenced in function main
+employees.obj : error LNK2019: unresolved external symbol "public: void __cdecl Records::Database::displayCurrent(void)const " (?displayCurrent@Database@Records@@QEBAXXZ) referenced in function main
+employees.obj : error LNK2019: unresolved external symbol "public: void __cdecl Records::Database::displayFormer(void)const " (?displayFormer@Database@Records@@QEBAXXZ) referenced in function main
+employees.obj : error LNK2019: unresolved external symbol "int __cdecl displayMenu(void)" (?displayMenu@@YAHXZ) referenced in function main
+employees.obj : error LNK2019: unresolved external symbol "void __cdecl doHire(class Records::Database &)" (?doHire@@YAXAEAVDatabase@Records@@@Z) referenced in function main
+employees.obj : error LNK2019: unresolved external symbol "void __cdecl doFire(class Records::Database &)" (?doFire@@YAXAEAVDatabase@Records@@@Z) referenced in function main
+employees.obj : error LNK2019: unresolved external symbol "void __cdecl doPromote(class Records::Database &)" (?doPromote@@YAXAEAVDatabase@Records@@@Z) referenced in function main
+C:\Users\NIMROD\source\repos\employees\x64\Debug\employees.exe : fatal error LNK1120: 13 unresolved externals
