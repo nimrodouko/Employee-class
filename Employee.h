@@ -1,9 +1,9 @@
 #pragma once
 #include <string>
 namespace Records{
-	
+	const int kDefaultStartingSalary = 3000;
 }
-const int kDefaultStartingSalary = 3000;
+
 class Employee
 {
 public:
@@ -29,7 +29,7 @@ private:
 	std::string mFirstName;
 	std::string mLastName;
 	int mEmployeeNumber =-1;
-	int mSalary = kDefaultStartingSalary;
+	int mSalary = Records::kDefaultStartingSalary;
 	bool mHired = false;
 
 

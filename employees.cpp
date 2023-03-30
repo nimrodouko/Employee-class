@@ -9,14 +9,14 @@
 
 
 int displayMenu();
-void doHire(Records::Database& db);
-void doFire(Records::Database& db);
-void doPromote(Records::Database& db);
-void doDemote(Records::Database& db);
+void doHire(Database& db);
+void doFire(Database& db);
+void doPromote(Database& db);
+void doDemote(Database& db);
 
 int main()
 {
-	Records::Database employeeDB;
+	Database employeeDB;
 	bool done = false;
 	while (!done) {
 		int selection = displayMenu();

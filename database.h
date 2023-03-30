@@ -6,7 +6,7 @@
 namespace Records {
 	const int kFirstEmployeeNumber = 1000;
 
-
+}
 
 	class Database {
 	public:
@@ -18,6 +18,6 @@ namespace Records {
 		void displayFormer() const;
 	private:
 		std::vector<Employee> mEmployees;
-		int mNextEmployeeNumber = kFirstEmployeeNumber;
+		int mNextEmployeeNumber = Records::kFirstEmployeeNumber;
 	};
-}
+ l
